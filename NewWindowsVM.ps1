@@ -24,3 +24,4 @@ Get-AzureRmVirtualNetworkGatewayLearnedRoute -VirtualNetworkGatewayName AEG-BI-V
 
 $nsg = Get-AzureRmNetworkSecurityGroup -ResourceGroupName Lab-ResourceGroup -Name TestServer-nsg
 Add-AzureRmNetworkSecurityRuleConfig -NetworkSecurityGroup $nsg -Name Allow-Target-Center_443  -Protocol Tcp -Direction Inbound -Priority 1160 -SourcePortRange * -SourceAddressPrefix 10.157.0.0/20 -DestinationAddressPrefix * -DestinationPortRange 443 -Access Allow
+this is a test line
