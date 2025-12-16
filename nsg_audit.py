@@ -12,7 +12,7 @@ def check_nsgs_for_port_443_internet():
     
     # --- ⚠️ REQUIRED: Specify your Azure Subscription ID here ⚠️ ---
     # Replace this placeholder with the actual ID of the subscription you want to audit.
-    subscription_id = "cfdfe037-8667-4558-a4bb-20c6294c7378"
+    subscription_id = "xxxxxx-xxxxxx-xxxxxx-xxxxxxx"
     
     if subscription_id == "YOUR_AZURE_SUBSCRIPTION_ID_HERE":
         print("Error: Please replace 'YOUR_AZURE_SUBSCRIPTION_ID_HERE' with your actual Azure Subscription ID in the script.")
