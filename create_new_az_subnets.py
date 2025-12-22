@@ -9,7 +9,8 @@ from netaddr import IPSet, IPNetwork
 # --- CONFIGURATION ---
 # Add your VNet Resource IDs to this list
 VNET_IDS = [
-    "/subscriptions/xxxxxx-xxxx-xxx-xxxxxx-xxxxxx/resourceGroups/rg-av-vnet-xxxxxxx/providers/Microsoft.Network/virtualNetworks/vnet-xxxxxxxx"
+    "/subscriptions/subscription1-id/resourceGroups/rg-av-vnet1/providers/Microsoft.Network/virtualNetworks/vnet1-xxxxxxxx",
+    "/subscriptions/subscription1-id/resourceGroups/rg-av-vnet2/providers/Microsoft.Network/virtualNetworks/vnet2-xxxxxxxx"
 ]
 SUBNET_NAME = "aviatrix-gateways"
 NEW_PREFIX_LENGTH = 28
